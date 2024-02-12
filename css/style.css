@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: yellow;
+}
+
 
 .flex-container{
     display: flex;
-    background-color: aliceblue;
+    background-color: yellow;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .item{
